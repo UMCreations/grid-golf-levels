@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Grid Golf Level Catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["catalogVersion", "levels"],
+  "properties": {
+    "catalogVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "mode", "difficulty", "levelPar", "path"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mode": {
+            "type": "string",
+            "enum": ["Classic", "Adventure"]
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["Easy", "Medium", "Hard"]
+          },
+          "levelPar": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^levels/published/(classic|adventure)/[a-z0-9][a-z0-9-]*\\.json$"
+          }
+        }
+      }
+    }
+  }
+}
