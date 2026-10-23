@@ -2,6 +2,14 @@
   "catalogVersion": 1,
   "levels": [
     {
+      "id": "adventure-l5-0ab8be7019",
+      "name": "L5",
+      "mode": "Adventure",
+      "difficulty": "Medium",
+      "levelPar": 5,
+      "path": "levels/published/adventure/adventure-l5-0ab8be7019.json"
+    },
+    {
       "id": "adventure-new-level-92bda20472",
       "name": "New Level",
       "mode": "Adventure",
