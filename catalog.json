@@ -2,12 +2,30 @@
   "catalogVersion": 1,
   "levels": [
     {
-      "id": "adventure-l3-d652cd98b7",
+
+      "id": "adventure-l3-06efd2f345",
       "name": "L3",
       "mode": "Adventure",
       "difficulty": "Easy",
       "levelPar": 4,
-      "path": "levels/published/adventure/adventure-l3-d652cd98b7.json"
+      "path": "levels/published/adventure/adventure-l3-06efd2f345.json"
+    },{
+      "id": "adventure-l2-64af7dc18a",
+      "name": "L2",
+      "mode": "Adventure",
+      "difficulty": "Easy",
+      "levelPar": 4,
+      "path": "levels/published/adventure/adventure-l2-64af7dc18a.json"
+    },
+     {
+      "id": "adventure-l1-ff009b7b39",
+      "name": "L1",
+      "mode": "Adventure",
+      "difficulty": "Medium",
+      "levelPar": 4,
+      "path": "levels/published/adventure/adventure-l1-ff009b7b39.json"
+ 
+
     },
     {
       "id": "adventure-new-level-92bda20472",
