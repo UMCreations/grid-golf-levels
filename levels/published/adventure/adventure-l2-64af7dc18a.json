@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-l2-64af7dc18a",
+  "name": "L2",
+  "mode": "Adventure",
+  "difficulty": "Easy",
+  "width": 3,
+  "height": 3,
+  "startPosition": {
+    "x": 0,
+    "y": 1
+  },
+  "holePosition": {
+    "x": 0,
+    "y": 0
+  },
+  "levelPar": 4,
+  "tiles": [
+    {
+      "x": 0,
+      "y": 0,
+      "type": "Hole",
+      "power": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "type": "Start",
+      "power": 2
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "type": "Standard",
+      "power": 1
+    }
+  ],
+  "metadata": {
+    "author": "umer",
+    "tags": [],
+    "notes": "",
+    "createdAt": "2026-10-22T16:50:55.763Z",
+    "updatedAt": "2026-10-23T11:08:26.678Z"
+  }
+}
