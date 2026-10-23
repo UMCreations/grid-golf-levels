@@ -20,4 +20,6 @@ Each level JSON file must validate against `schema/level.schema.json`. IDs must 
 
 Account-free submissions through the browser editor are planned but are not enabled yet. Before intake opens, the project will publish submission terms and configure validation and review. Do not put personal or private information in level metadata.
 
-Approved levels are moved to the appropriate `levels/published/` folder and added to `catalog.json`. Pending submissions are not playable.
+Approved levels are moved to the appropriate `levels/published/` folder. A serialized GitHub Actions workflow then opens or updates one catalog-sync pull request generated from all currently published files. Merge that catalog-sync pull request to make the levels available in the game. Pending submissions are not playable.
+
+The catalog workflow uses the repository's built-in `GITHUB_TOKEN`. In **Settings → Actions → General → Workflow permissions**, allow read and write permissions and enable **Allow GitHub Actions to create and approve pull requests**. No additional secrets are required.

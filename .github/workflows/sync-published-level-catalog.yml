@@ -1,0 +1,40 @@
+name: Sync published level catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "levels/published/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: published-level-catalog-main
+  queue: max
+
+jobs:
+  sync-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Generate catalog from published levels
+        run: node .github/scripts/build-level-catalog.mjs
+
+      - name: Create or update the single catalog PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          add-paths: catalog.json
+          branch: automation/published-level-catalog
+          base: main
+          delete-branch: false
+          commit-message: "Regenerate published level catalog"
+          title: "Sync published level catalog"
+          body: "Regenerates catalog.json from all level files currently in levels/published/. Merge this PR to make newly published levels available in the game."
