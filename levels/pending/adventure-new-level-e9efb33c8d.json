@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-new-level-e9efb33c8d",
+  "name": "New Level",
+  "mode": "Adventure",
+  "difficulty": "Easy",
+  "width": 5,
+  "height": 5,
+  "startPosition": {
+    "x": 0,
+    "y": 4
+  },
+  "holePosition": {
+    "x": 4,
+    "y": 3
+  },
+  "levelPar": 5,
+  "tiles": [
+    {
+      "x": 0,
+      "y": 0,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "type": "Standard",
+      "power": 4
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "type": "Standard",
+      "power": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "type": "Standard",
+      "power": 4
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "type": "Standard",
+      "power": 3
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "type": "Standard",
+      "power": 3
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "type": "Standard",
+      "power": 4
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "type": "Standard",
+      "power": 5
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "type": "Standard",
+      "power": 4
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "type": "Standard",
+      "power": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "type": "Standard",
+      "power": 5
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "type": "Standard",
+      "power": 3
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "type": "Standard",
+      "power": 4
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "type": "Standard",
+      "power": 1
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "type": "Hole",
+      "power": 0
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "type": "Start",
+      "power": 4
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "type": "Standard",
+      "power": 2
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "type": "Standard",
+      "power": 5
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "type": "Standard",
+      "power": 3
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "type": "Standard",
+      "power": 2
+    }
+  ],
+  "metadata": {
+    "author": "",
+    "tags": [],
+    "notes": "",
+    "createdAt": "2026-11-11T15:17:36.819Z",
+    "updatedAt": "2026-11-11T15:19:13.311Z"
+  }
+}
